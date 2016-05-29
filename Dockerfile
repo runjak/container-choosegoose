@@ -33,6 +33,8 @@ RUN apk update \
  && chown -R mushu.mushu /home/mushu \
  && chmod 600 /home/mushu/.ssh/authorized_keys
 
+# motd from
+# http://www.chris.com/ascii/index.php?art=art%20and%20design/patterns
 COPY motd /etc/motd
 
 VOLUME ["/home/mushu/git","/etc/ssh"]
