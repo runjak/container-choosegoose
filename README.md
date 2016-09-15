@@ -1,4 +1,4 @@
-# docker-choosegoose
+# container-choosegoose
 
 I'm using this container to have a small place that works with `{ssh,zsh,git}`.
 
